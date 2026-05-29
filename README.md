@@ -1,6 +1,6 @@
 # simple-port-scanner
 
-lol idk i was bored and wanted to write sum
+lol idk i was bored and wanted to write sum, prolly not that practical. 
 This is just a basic TCP port scanner built in Python using the `socket` library. It hits a target IP on a few specific ports to see if anything is listening, kind of like a mini Nmap.
 
 ## How it works
