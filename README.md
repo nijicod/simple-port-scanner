@@ -16,5 +16,5 @@ It tries to initiate a quick TCP handshake with the target. If `connect_ex()` re
 2. edit the script to change the `target` IP and the `ports_to_scan` list to whatever you want.
 3. Run code
 
-##DISCLAIMER
+## DISCLAIMER
 Don't scan stuff you don't own or don't have permission to test. Stay legal, the firewall will prolly block it anyways
