@@ -8,10 +8,13 @@ It tries to initiate a quick TCP handshake with the target. If `connect_ex()` re
 
 ## Features
 * No external libraries needed (just standard Python `socket` and `sys`).
-* Has a 1-second timeout so it doesn't hang forever.
+* Has a 1-second timeout.
 * You can kill it instantly with `Ctrl + C`.
 
 ## How to use
 1. download the code and open it in vs or whatever
 2. edit the script to change the `target` IP and the `ports_to_scan` list to whatever you want.
 3. Run code
+
+##DISCLAIMER
+Don't scan stuff you don't own or don't have permission to test. Stay legal, the firewall will prolly block it anyways
